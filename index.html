@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap stylesheet-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/fonts/css">
+    <!-- Swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <!-- Spinner-->
+    <link rel="stylesheet" href="assets/css/stepper.css">
+  </head>
+  <body> 
+    <div class="container"> 
+      <div class="row"> 
+        <div class="col-12">
+          <aside class="sidenav">
+            <div class="container"> 
+              <div class="row"> 
+                <div class="logo ms-2 my-4"><img src="assets/img/dest/logo.svg" alt="logo"></div>
+                <ul class="sidenav-list"> 
+                  <li class="sidenav__item mb-1 btn-group dropend">
+                    <button class="sidenav__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <div class="sidenav-wrap"><img class="sidenav__icon" src="assets/img/dest/sofa-2.svg" alt="icon"><span class="ms-1">Диваны и кресла</span></div><img class="sidenav__shevron" src="assets/img/dest/Rectangle 26.svg" alt="icon">
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-menu__item-title my-3"> 
+                        <p>Диваны и кресла</p>
+                      </li>
+                      <li class="dropdown-menu__item my-3">Все диваны</li>
+                      <li class="dropdown-menu__item my-3">Диваны-кровати</li>
+                      <li class="dropdown-menu__item my-3">Угловые кожаные диваны</li>
+                      <li class="dropdown-menu__item my-3">Угловые тканевые диваны</li>
+                      <li class="dropdown-menu__item my-3">Прямые кожаные диваны</li>
+                      <li class="dropdown-menu__item my-3">Прямые тканевые диваны</li>
+                      <li class="dropdown-menu__item my-3">Кресла для гостиной</li>
+                      <li class="dropdown-menu__item my-3">Кресла-груши</li>
+                      <li class="dropdown-menu__item my-3">Офисные кресла</li>
+                      <li class="dropdown-menu__item my-3">Пуфы и банкетыки</li>
+                    </ul>
+                  </li>
+                  <li class="sidenav__item mb-1 btn-group dropend">
+                    <button class="sidenav__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <div class="sidenav-wrap"><img class="sidenav__icon" src="assets/img/dest/closet-2.svg" alt="icon"><span class="ms-1">Шкафы</span></div><img class="sidenav__shevron" src="assets/img/dest/Rectangle 26.svg" alt="icon">
+                    </button>
+                    <ul class="dropdown-menu"></ul>
+                  </li>
+                  <li class="sidenav__item mb-1 btn-group dropend">
+                    <button class="sidenav__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <div class="sidenav-wrap"><img class="sidenav__icon" src="assets/img/dest/kitchen-2.svg" alt="icon"><span class="ms-1">Мебель для кухни</span></div><img class="sidenav__shevron" src="assets/img/dest/Rectangle 26.svg" alt="icon">
+                    </button>
+                    <ul class="dropdown-menu"></ul>
+                  </li>
+                  <li class="sidenav__item mb-1 btn-group dropend">
+                    <button class="sidenav__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <div class="sidenav-wrap"><img class="sidenav__icon" src="assets/img/dest/bedroom-3.svg" alt="icon"><span class="ms-1">Спальни</span></div><img class="sidenav__shevron" src="assets/img/dest/Rectangle 26.svg" alt="icon">
+                    </button>
+                    <ul class="dropdown-menu"></ul>
+                  </li>
+                  <li class="sidenav__item mb-1 btn-group dropend">
+                    <button class="sidenav__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <div class="sidenav-wrap"><img class="sidenav__icon" src="assets/img/dest/hall-4.svg" alt="icon"><span class="ms-1">Мебель для прихожей</span></div><img class="sidenav__shevron" src="assets/img/dest/Rectangle 26.svg" alt="icon">
+                    </button>
+                    <ul class="dropdown-menu"></ul>
+                  </li>
+                  <li class="sidenav__item mb-1 btn-group dropend">
+                    <button class="sidenav__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <div class="sidenav-wrap"><img class="sidenav__icon" src="assets/img/dest/child-2.svg" alt="icon"><span class="ms-1">Детская мебель</span></div><img class="sidenav__shevron" src="assets/img/dest/Rectangle 26.svg" alt="icon">
+                    </button>
+                    <ul class="dropdown-menu"></ul>
+                  </li>
+                  <li class="sidenav__item mb-1 btn-group dropend">
+                    <button class="sidenav__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <div class="sidenav-wrap"><img class="sidenav__icon" src="assets/img/dest/table-3.svg" alt="icon"><span class="ms-1">Столы и стулья</span></div><img class="sidenav__shevron" src="assets/img/dest/Rectangle 26.svg" alt="icon">
+                    </button>
+                    <ul class="dropdown-menu"></ul>
+                  </li>
+                  <li class="sidenav__item mb-1 btn-group dropend">
+                    <button class="sidenav__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <div class="sidenav-wrap"><img class="sidenav__icon" src="assets/img/dest/office-3.svg" alt="icon"><span class="ms-1">Офисная мебель</span></div><img class="sidenav__shevron" src="assets/img/dest/Rectangle 26.svg" alt="icon">
+                    </button>
+                    <ul class="dropdown-menu"></ul>
+                  </li>
+                  <li class="sidenav__item mb-1 btn-group dropend">
+                    <button class="sidenav__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <div class="sidenav-wrap"><img class="sidenav__icon" src="assets/img/dest/rotang-3.svg" alt="icon"><span class="ms-1">Мебель из ротанга</span></div>
+                    </button>
+                    <ul class="dropdown-menu"></ul>
+                  </li>
+                  <li class="sidenav__item mb-1 btn-group dropend">
+                    <button class="sidenav__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <div class="sidenav-wrap"><img class="sidenav__icon" src="assets/img/dest/premium-3.1.svg" alt="icon"><span class="ms-1">Мебель премиум-класса</span></div>
+                    </button>
+                    <ul class="dropdown-menu"></ul>
+                  </li>
+                  <li class="sidenav__item mt-3 btn-group dropend">
+                    <button class="sidenav__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <div class="sidenav-wrap"><img class="sidenav__icon" src="assets/img/dest/more-2.svg" alt="icon"><span class="ms-1">Условия покупки</span></div><img class="sidenav__shevron" src="assets/img/dest/Rectangle 26.svg" alt="icon">
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-menu__item-title my-3"> 
+                        <p>Условия покупки</p>
+                      </li>
+                      <li class="dropdown-menu__item my-3">Рассрочка</li>
+                      <li class="dropdown-menu__item my-3">Оплата</li>
+                      <li class="dropdown-menu__item my-3">Гарантия</li>
+                      <li class="dropdown-menu__item my-3">Доставка и сборка</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+          <main>
+            <header class="pt-3">
+              <div class="container"> 
+                <div class="row mb-4">
+                  <div class="col-12 header">
+                    <div class="header-left d-flex align-items-center">
+                      <div class="dropdown">
+                        <button class="header_btn" id="dropdownMenuButton1" type="button" data-bs-toggle="dropdown" aria-expanded="false">Санкт-Петербург<img class="dropdown-shevron ms-2" src="assets/img/dest/Rectangle 27 (Stroke).svg" alt="shevron"></button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Москва</a></li>
+                          <li><a class="dropdown-item" href="#">Екатеринбург</a></li>
+                          <li><a class="dropdown-item" href="#">Псков</a></li>
+                        </ul>
+                      </div>
+                      <div class="shops ms-4">
+                        <svg width="14" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path class="shops-icon" d="M7 4.5a2.5 2.5 0 010 5 2.5 2.5 0 010-5zM7 0c3.87 0 7 3.13 7 7 0 4.208-4.496 10.021-6.282 12.164a.926.926 0 01-1.436 0C4.496 17.02 0 11.208 0 7c0-3.87 3.13-7 7-7zm0 2C4.24 2 2 4.24 2 7c0 1 0 3 5 9.71C12 10 12 8 12 7c0-2.76-2.24-5-5-5z" fill="#1A1A1A"></path>
+                        </svg><span class="ms-2">Магазины</span>
+                      </div>
+                    </div>
+                    <div class="header-right d-flex align-items-center">
+                      <div class="phone"> <span>+7 (800) 555-44-33</span></div>
+                      <button class="header_btn phone-btn ms-4">Обратный звонок</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 d-flex flex-row">
+                    <div class="search">
+                      <form class="d-flex">
+                        <input class="form-control search-input" type="search" placeholder="Поиск: Диван для кухни" aria-label="Search">
+                        <button class="search-btn" type="submit"> <i class="bi bi-search fs-5"></i></button>
+                      </form>
+                    </div>
+                    <div class="side-menu ms-4 d-flex flex-row justify-content-between">
+                      <div class="user-autorization d-flex align-items-center"><i class="bi bi-person fs-4"></i><span class="user-login ms-1">Войти</span></div>
+                      <div class="cart d-flex align-items-center"><i class="bi bi-cart3 fs-4 position-relative"><span class="position-absolute translate-middle border border-light rounded-circle page-badge">10</span></i><span class="fw-bold ms-1"> 25 000 &#8381;</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </header>
+            <div class="content">
+              <section class="goods">
+                <div class="container-fluid">
+                  <div class="row"> 
+                    <div class="col-12 d-flex flex-row align-items-center"><img class="promo-icon" src="assets/img/dest/promo-1.svg" alt="promo">
+                      <h2 class="text-start best-offer ms-2">Лучшие предложения месяца</h2>
+                    </div>
+                  </div>
+                  <div class="row"> 
+                    <div class="col-12 d-flex justify-content-end">
+                      <svg class="slider-next-icon" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.24 22.343c.521.52 1.365.52 1.886 0l6.209-6.21-6.21-6.208a1.333 1.333 0 10-1.885 1.885l4.324 4.324-4.324 4.323c-.52.52-.52 1.365 0 1.886z" fill="#1A1A1A"></path>
+                        <rect x=".5" y=".5" width="31" height="31" rx="15.5" stroke="#1A1A1A"></rect>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="swiper mySwiper p-4">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide col-md-3 col-sm-12 goods-box position-relative">
+                          <div class="goods-box__img-wrap position-relative"><img src="assets/img/dest/goods/image 4.svg" alt="goods">
+                            <div class="goods-box__best-price position-absolute d-flex align-items-center justify-content-center"><img class="best-price-icon me-1" src="assets/img/dest/best-price.svg" alt="best-price-icon"><span>Лучшая цена</span></div>
+                          </div>
+                          <div class="goods-box__colors position-absolute"><img class="me-2" src="assets/img/dest/goods/color.svg" alt="color-alt"><img class="me-2" src="assets/img/dest/goods/color(1).svg" alt="color-alt"><img class="me-2" src="assets/img/dest/goods/color(2).svg" alt="color-alt"></div>
+                          <div class="goods-box__name-wrap ms-2">
+                            <h6 class="goods-box__name">Диван-трансформер «Камертон-2»</h6>
+                          </div>
+                          <div class="goods-box__info d-flex flex-row justify-content-between mt-4 ms-2">
+                            <div class="goods-box__price"> 
+                              <div class="goods-box__price_old text-decoration-line-through">10 540 &#8381;</div>
+                              <div class="goods-box__price_new">9 490 &#8381;</div>
+                            </div>
+                            <button class="goods-box-btn text-uppercase fw-bold me-2" id="buy-btn-1" onclick="document.getElementById('buy-stepper-1').style.display='flex', document.getElementById('buy-btn-1').style.display='none'">Купить</button>
+                            <div class="buy-btn js-spinner me-2" id="buy-stepper-1">
+                              <div class="stepper position-relative">
+                                <div class="stepper__controls">
+                                  <button class="stepper__r-btn" type="button" spinner-button="up">&plus;</button>
+                                  <input class="stepper__input" autofocus="" type="number" min="0" max="100" step="1" value="0">
+                                  <button class="stepper__l-btn" type="button" spinner-button="down">&minus; </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="goods-box__availability mt-2 ms-2"><img src="assets/img/dest/car small - 2.svg" alt="truck"><span class="ms-1">В наличии</span></div>
+                          <div class="goods-box__hidden-info mt-3 ms-2">
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Механизм:</span><span class="hidden-info-wrap__text mt-1">Аккордеон</span></div>
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Размеры:</span><span class="hidden-info-wrap__text mt-1">90 см (В) &times; 95 см (Г) &times; 218 см (Ш)</span></div>
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Спальное место:</span><span class="hidden-info-wrap__text mt-1">160 см (Ш) &times; 218 см (Д)</span></div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide col-md-3 col-sm-12 goods-box">
+                          <div class="goods-box__img-wrap position-relative"><img src="assets/img/dest/goods/image 88.svg" alt="goods">
+                            <div class="goods-box__gift position-absolute top-0 d-flex align-items-center justify-content-center"><img class="best-price-icon me-1" src="assets/img/dest/promo-1 (2).svg" alt="best-price-icon"><span>Кресло в подарок</span></div>
+                          </div>
+                          <div class="goods-box__colors position-absolute"><img class="me-2" src="assets/img/dest/goods/color.svg" alt="color-alt"><img class="me-2" src="assets/img/dest/goods/color(1).svg" alt="color-alt"><img class="me-2" src="assets/img/dest/goods/color(2).svg" alt="color-alt"></div>
+                          <div class="goods-box__name-wrap ms-2">
+                            <h6 class="goods-box__name">Диван с декоративными подушками "Олимп" (Нексус)</h6>
+                          </div>
+                          <div class="goods-box__info d-flex flex-row justify-content-between mt-4 ms-2">
+                            <div class="goods-box__price"> 
+                              <div class="goods-box__price_old text-decoration-line-through">10 540 &#8381;</div>
+                              <div class="goods-box__price_new">12 290 &#8381;</div>
+                            </div>
+                            <button class="goods-box-btn text-uppercase fw-bold me-2" id="buy-btn-2" onclick="document.getElementById('buy-stepper-2').style.display='flex', document.getElementById('buy-btn-2').style.display='none'">Купить</button>
+                            <div class="buy-btn js-spinner me-2" id="buy-stepper-2">
+                              <div class="stepper position-relative">
+                                <div class="stepper__controls">
+                                  <button class="stepper__r-btn" type="button" spinner-button="up">&plus;</button>
+                                  <input class="stepper__input" autofocus="" type="number" min="0" max="100" step="1" value="0">
+                                  <button class="stepper__l-btn" type="button" spinner-button="down">&minus; </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="goods-box__availability mt-2 ms-2"><img src="assets/img/dest/car small - 2.svg" alt="truck"><span class="ms-1">В наличии</span></div>
+                          <div class="goods-box__hidden-info mt-3 ms-2">
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Механизм:</span><span class="hidden-info-wrap__text mt-1">Аккордеон</span></div>
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Размеры:</span><span class="hidden-info-wrap__text mt-1">90 см (В) &times; 95 см (Г) &times; 218 см (Ш)</span></div>
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Спальное место:</span><span class="hidden-info-wrap__text mt-1">160 см (Ш) &times; 218 см (Д)</span></div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide col-md-3 col-sm-12 goods-box">
+                          <div class="goods-box__img-wrap position-relative"><img src="assets/img/dest/goods/image 89.svg" alt="goods"></div>
+                          <div class="goods-box__colors position-absolute"><img class="me-2" src="assets/img/dest/goods/color.svg" alt="color-alt"><img class="me-2" src="assets/img/dest/goods/color(1).svg" alt="color-alt"><img class="me-2" src="assets/img/dest/goods/color(2).svg" alt="color-alt"></div>
+                          <div class="goods-box__name-wrap ms-2">
+                            <h6 class="goods-box__name">Диван "КАМЕЛИЯ" </h6>
+                            <p class="invisible">invisible</p>
+                          </div>
+                          <div class="goods-box__info d-flex flex-row justify-content-between mt-4 ms-2">
+                            <div class="goods-box__price"> 
+                              <div class="goods-box__price_old text-decoration-line-through">9 150 &#8381;</div>
+                              <div class="goods-box__price_new">14 490 &#8381;</div>
+                            </div>
+                            <button class="goods-box-btn text-uppercase fw-bold me-2" id="buy-btn-3" onclick="document.getElementById('buy-stepper-3').style.display='flex', document.getElementById('buy-btn-3').style.display='none'">Купить</button>
+                            <div class="buy-btn js-spinner me-2" id="buy-stepper-3">
+                              <div class="stepper position-relative">
+                                <div class="stepper__controls">
+                                  <button class="stepper__r-btn" type="button" spinner-button="up">&plus;</button>
+                                  <input class="stepper__input" autofocus="" type="number" min="0" max="100" step="1" value="0">
+                                  <button class="stepper__l-btn" type="button" spinner-button="down">&minus; </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="goods-box__availability mt-2 ms-2"><img src="assets/img/dest/car small - 2.svg" alt="truck"><span class="ms-1">В наличии</span></div>
+                          <div class="goods-box__hidden-info mt-3 ms-2">
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Механизм:</span><span class="hidden-info-wrap__text mt-1">Аккордеон</span></div>
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Размеры:</span><span class="hidden-info-wrap__text mt-1">90 см (В) &times; 95 см (Г) &times; 218 см (Ш)</span></div>
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Спальное место:</span><span class="hidden-info-wrap__text mt-1">160 см (Ш) &times; 218 см (Д)</span></div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide col-md-3 col-sm-12 goods-box">
+                          <div class="goods-box__img-wrap position-relative"><img src="assets/img/dest/goods/image 90.svg" alt="goods">
+                            <div class="goods-box__best-price position-absolute top-0 d-flex align-items-center justify-content-center color-pink"><img class="best-price-icon me-1" src="assets/img/dest/best-price2.svg" alt="best-price-icon"><span>Лучшая цена</span></div>
+                          </div>
+                          <div class="goods-box__colors position-absolute"><img class="me-2" src="assets/img/dest/goods/color.svg" alt="color-alt"><img class="me-2" src="assets/img/dest/goods/color(1).svg" alt="color-alt"><img class="me-2" src="assets/img/dest/goods/color(2).svg" alt="color-alt"></div>
+                          <div class="goods-box__name-wrap ms-2">
+                            <h6 class="goods-box__name">Диван-кровать "Палермо 2" рогожка</h6>
+                          </div>
+                          <div class="goods-box__info d-flex flex-row justify-content-between mt-4 ms-2">
+                            <div class="goods-box__price"> 
+                              <div class="goods-box__price_old text-decoration-line-through">16 810 &#8381;</div>
+                              <div class="goods-box__price_new">12 790 &#8381;</div>
+                            </div>
+                            <button class="goods-box-btn text-uppercase fw-bold me-2" id="buy-btn-4" onclick="document.getElementById('buy-stepper-4').style.display='flex', document.getElementById('buy-btn-4').style.display='none'">Купить</button>
+                            <div class="buy-btn js-spinner me-2" id="buy-stepper-4">
+                              <div class="stepper position-relative">
+                                <div class="stepper__controls">
+                                  <button class="stepper__r-btn" type="button" spinner-button="up">&plus;</button>
+                                  <input class="stepper__input" autofocus="" type="number" min="0" max="100" step="1" value="0">
+                                  <button class="stepper__l-btn" type="button" spinner-button="down">&minus; </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="goods-box__availability mt-2 ms-2"><img src="assets/img/dest/car small - 2.svg" alt="truck"><span class="ms-1">В наличии</span></div>
+                          <div class="goods-box__hidden-info mt-3 ms-2">
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Механизм:</span><span class="hidden-info-wrap__text mt-1">Аккордеон</span></div>
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Размеры:</span><span class="hidden-info-wrap__text mt-1">90 см (В) &times; 95 см (Г) &times; 218 см (Ш)</span></div>
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Спальное место:</span><span class="hidden-info-wrap__text mt-1">160 см (Ш) &times; 218 см (Д)</span></div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide col-md-3 col-sm-12 goods-box position-relative">
+                          <div class="goods-box__img-wrap position-relative"><img src="assets/img/dest/goods/image 4.svg" alt="goods">
+                            <div class="goods-box__best-price position-absolute d-flex align-items-center justify-content-center"><img class="best-price-icon me-1" src="assets/img/dest/best-price.svg" alt="best-price-icon"><span>Лучшая цена</span></div>
+                          </div>
+                          <div class="goods-box__colors position-absolute"><img class="me-2" src="assets/img/dest/goods/color.svg" alt="color-alt"><img class="me-2" src="assets/img/dest/goods/color(1).svg" alt="color-alt"><img class="me-2" src="assets/img/dest/goods/color(2).svg" alt="color-alt"></div>
+                          <div class="goods-box__name-wrap ms-2">
+                            <h6 class="goods-box__name">Диван-трансформер «Камертон-2»</h6>
+                          </div>
+                          <div class="goods-box__info d-flex flex-row justify-content-between mt-4 ms-2">
+                            <div class="goods-box__price"> 
+                              <div class="goods-box__price_old text-decoration-line-through">10 540 &#8381;</div>
+                              <div class="goods-box__price_new">9 490 &#8381;</div>
+                            </div>
+                            <button class="goods-box-btn text-uppercase fw-bold me-2" id="buy-btn-5" onclick="document.getElementById('buy-stepper-5').style.display='flex', document.getElementById('buy-btn-5').style.display='none'">Купить</button>
+                            <div class="buy-btn js-spinner me-2" id="buy-stepper-5">
+                              <div class="stepper position-relative">
+                                <div class="stepper__controls">
+                                  <button class="stepper__r-btn" type="button" spinner-button="up">&plus;</button>
+                                  <input class="stepper__input" autofocus="" type="number" min="0" max="100" step="1" value="0">
+                                  <button class="stepper__l-btn" type="button" spinner-button="down">&minus; </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="goods-box__availability mt-2 ms-2 ms-2"><img src="assets/img/dest/car small - 2.svg" alt="truck"><span class="ms-1">В наличии</span></div>
+                          <div class="goods-box__hidden-info mt-3 ms-2">
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Механизм:</span><span class="hidden-info-wrap__text mt-1">Аккордеон</span></div>
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Размеры:</span><span class="hidden-info-wrap__text mt-1">90 см (В) &times; 95 см (Г) &times; 218 см (Ш)</span></div>
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Спальное место:</span><span class="hidden-info-wrap__text mt-1">160 см (Ш) &times; 218 см (Д)</span></div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide col-md-3 col-sm-12 goods-box">
+                          <div class="goods-box__img-wrap position-relative"><img src="assets/img/dest/goods/image 88.svg" alt="goods">
+                            <div class="goods-box__gift position-absolute top-0 d-flex align-items-center justify-content-center"><img class="best-price-icon me-1" src="assets/img/dest/promo-1 (2).svg" alt="best-price-icon"><span>Кресло в подарок</span></div>
+                          </div>
+                          <div class="goods-box__colors position-absolute"><img class="me-2" src="assets/img/dest/goods/color.svg" alt="color-alt"><img class="me-2" src="assets/img/dest/goods/color(1).svg" alt="color-alt"><img class="me-2" src="assets/img/dest/goods/color(2).svg" alt="color-alt"></div>
+                          <div class="goods-box__name-wrap ms-2">
+                            <h6 class="goods-box__name">Диван с декоративными подушками "Олимп" (Нексус)</h6>
+                          </div>
+                          <div class="goods-box__info d-flex flex-row justify-content-between mt-4 ms-2">
+                            <div class="goods-box__price"> 
+                              <div class="goods-box__price_old text-decoration-line-through">10 540 &#8381;</div>
+                              <div class="goods-box__price_new">12 290 &#8381;</div>
+                            </div>
+                            <button class="goods-box-btn text-uppercase fw-bold me-2" id="buy-btn-6" onclick="document.getElementById('buy-stepper-6').style.display='flex', document.getElementById('buy-btn-6').style.display='none'">Купить</button>
+                            <div class="buy-btn js-spinner me-2" id="buy-stepper-6">
+                              <div class="stepper position-relative">
+                                <div class="stepper__controls">
+                                  <button class="stepper__r-btn" type="button" spinner-button="up">&plus;</button>
+                                  <input class="stepper__input" autofocus="" type="number" min="0" max="100" step="1" value="0">
+                                  <button class="stepper__l-btn" type="button" spinner-button="down">&minus; </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="goods-box__availability mt-2 ms-2"><img src="assets/img/dest/car small - 2.svg" alt="truck"><span class="ms-1">В наличии</span></div>
+                          <div class="goods-box__hidden-info mt-3 ms-2">
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Механизм:</span><span class="hidden-info-wrap__text mt-1">Аккордеон</span></div>
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Размеры:</span><span class="hidden-info-wrap__text mt-1">90 см (В) &times; 95 см (Г) &times; 218 см (Ш)</span></div>
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Спальное место:</span><span class="hidden-info-wrap__text mt-1">160 см (Ш) &times; 218 см (Д)</span></div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide col-md-3 col-sm-12 goods-box">
+                          <div class="goods-box__img-wrap position-relative"><img src="assets/img/dest/goods/image 89.svg" alt="goods"></div>
+                          <div class="goods-box__colors position-absolute"><img class="me-2" src="assets/img/dest/goods/color.svg" alt="color-alt"><img class="me-2" src="assets/img/dest/goods/color(1).svg" alt="color-alt"><img class="me-2" src="assets/img/dest/goods/color(2).svg" alt="color-alt"></div>
+                          <div class="goods-box__name-wrap ms-2">
+                            <h6 class="goods-box__name">Диван "КАМЕЛИЯ" </h6>
+                            <p class="invisible">invisible</p>
+                          </div>
+                          <div class="goods-box__info d-flex flex-row justify-content-between mt-4 ms-2">
+                            <div class="goods-box__price"> 
+                              <div class="goods-box__price_old text-decoration-line-through">9 150 &#8381;</div>
+                              <div class="goods-box__price_new">14 490 &#8381;</div>
+                            </div>
+                            <button class="goods-box-btn text-uppercase fw-bold me-2" id="buy-btn-7" onclick="document.getElementById('buy-stepper-7').style.display='flex', document.getElementById('buy-btn-7').style.display='none'">Купить</button>
+                            <div class="buy-btn js-spinner me-2" id="buy-stepper-7">
+                              <div class="stepper position-relative">
+                                <div class="stepper__controls">
+                                  <button class="stepper__r-btn" type="button" spinner-button="up">&plus;</button>
+                                  <input class="stepper__input" autofocus="" type="number" min="0" max="100" step="1" value="0">
+                                  <button class="stepper__l-btn" type="button" spinner-button="down">&minus; </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="goods-box__availability mt-2 ms-2"><img src="assets/img/dest/car small - 2.svg" alt="truck"><span class="ms-1">В наличии</span></div>
+                          <div class="goods-box__hidden-info mt-3 ms-2">
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Механизм:</span><span class="hidden-info-wrap__text mt-1">Аккордеон</span></div>
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Размеры:</span><span class="hidden-info-wrap__text mt-1">90 см (В) &times; 95 см (Г) &times; 218 см (Ш)</span></div>
+                            <div class="hidden-info-wrap d-flex flex-column mt-2"><span class="text-grey hidden-info-wrap__text">Спальное место:</span><span class="hidden-info-wrap__text mt-1">160 см (Ш) &times; 218 см (Д)</span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <footer class="mt-5">
+                <div class="container"> 
+                  <div class="row"> 
+                    <div class="col-12"> 
+                      <div class="shops">
+                        <svg width="14" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path class="shops-icon" d="M7 4.5a2.5 2.5 0 010 5 2.5 2.5 0 010-5zM7 0c3.87 0 7 3.13 7 7 0 4.208-4.496 10.021-6.282 12.164a.926.926 0 01-1.436 0C4.496 17.02 0 11.208 0 7c0-3.87 3.13-7 7-7zm0 2C4.24 2 2 4.24 2 7c0 1 0 3 5 9.71C12 10 12 8 12 7c0-2.76-2.24-5-5-5z" fill="#1A1A1A"></path>
+                        </svg><span class="ms-2">Магазины</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row"> 
+                    <div class="col-md-3 col-sm-6 text-start">
+                      <h6 class="mt-3 text">Как мы работаем?</h6>
+                      <h6 class="mt-3 text-grey">О нас</h6>
+                      <h6 class="mt-3 text-grey">Сборка и доставка</h6>
+                      <h6 class="mt-3 text-grey">Оплата и возврат</h6>
+                      <h6 class="mt-3 text-grey">Гарантия</h6>
+                      <h6 class="mt-3 text-grey">Рассрочка</h6>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-start">
+                      <h6 class="mt-3">Другая информация</h6>
+                      <h6 class="mt-3 text-grey">Блог</h6>
+                      <h6 class="mt-3 text-grey">Контакты</h6>
+                      <h6 class="mt-3 text-grey">Социальные сети</h6>
+                      <h6 class="mt-3 text-grey">Бренды мебели</h6>
+                      <h6 class="mt-3 text-grey">Карта сайта</h6>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-start">
+                      <h6 class="mt-3 text">Сотрудничество</h6>
+                      <h6 class="mt-3 text-grey">Поставщикам</h6>
+                      <h6 class="mt-3 text-grey">Оптовикам</h6>
+                      <h6 class="mt-3 text-grey">Франчайзинг</h6>
+                      <h6 class="mt-3 text-grey">Подписка</h6>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-start">
+                      <h6 class="mt-3 text">Отзывы о нас</h6>
+                      <div class="review-wrap d-flex flex-row mt-3 justify-content-between"><img src="assets/img/dest/image 12.svg" alt="review-icon">
+                        <div class="review-score"> <i class="bi bi-star-fill review__icon_fill ms-1"></i><i class="bi bi-star-fill review__icon_fill ms-1"></i><i class="bi bi-star-fill review__icon_fill ms-1"></i><i class="bi bi-star-fill review__icon_fill ms-1"></i><i class="bi bi-star-fill review__icon_unfill ms-1"></i></div>
+                      </div>
+                      <div class="review-wrap d-flex flex-row mt-3 justify-content-between"><img src="assets/img/dest/image 14.svg" alt="review-icon">
+                        <div class="review-score"> <i class="bi bi-star-fill review__icon_fill ms-1"></i><i class="bi bi-star-fill review__icon_fill ms-1"></i><i class="bi bi-star-fill review__icon_fill ms-1"></i><i class="bi bi-star-fill review__icon_fill ms-1"></i><i class="bi bi-star-fill review__icon_unfill ms-1"></i></div>
+                      </div>
+                      <div class="review-wrap d-flex flex-row mt-3 justify-content-between"><img src="assets/img/dest/image 16.svg" alt="review-icon">
+                        <div class="review-score"> <i class="bi bi-star-fill review__icon_fill ms-1"></i><i class="bi bi-star-fill review__icon_fill ms-1"></i><i class="bi bi-star-fill review__icon_fill ms-1"></i><i class="bi bi-star-fill review__icon_fill ms-1"></i><i class="bi bi-star-half review__icon_fill ms-1"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-md-3 col-sm-12"> 
+                      <h6 class="mt-3">Мы в соцсетях</h6><img class="me-2" src="assets/img/dest/vk.svg" alt="social-icon"><img class="me-2" src="assets/img/dest/youtube.svg" alt="social-icon"><img class="me-2" src="assets/img/dest/instagram.svg" alt="social-icon"><img class="me-2" src="assets/img/dest/Frame 75.svg" alt="social-icon"><img class="me-2" src="assets/img/dest/Frame 76.svg" alt="social-icon">
+                    </div>
+                    <div class="col-md-9 col-sm-12">
+                      <h6 class="mt-3">Мы принимаем к оплате</h6><img class="me-4" src="assets/img/dest/mc_symbol 1.svg" alt="pay-icon"><img class="me-4" src="assets/img/dest/image 11.svg" alt="pay-icon"><img class="me-4" src="assets/img/dest/Frame.svg" alt="pay-icon"><img class="me-4" src="assets/img/dest/Frame(1).svg" alt="pay-icon">
+                    </div>
+                  </div>
+                  <div class="row mt-5"> 
+                    <div class="col-12"></div>
+                    <p class="conf-politic">Политика конфиденциальности</p>
+                    <div class="col-12"></div>
+                    <p class="conf-politic">&copy; 2010-2020 Интернет-магазин мебели и товаров для дома.</p>
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+    <!-- Scripts-->
+    <script src="assets/js/bootstrap.bundle.min.js"> </script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"> </script>
+    <script src="assets/js/main.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/stepper.js"> </script>
+  </body>
+</html>

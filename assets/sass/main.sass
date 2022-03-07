@@ -1,0 +1,27 @@
+body
+  font-family: "Helvetica", sans-serif
+  font-size: 14px
+
+main
+  width: 1000px
+  display: inline-block
+
+@import ../blocks/stepper/stepper.sass
+@import ../blocks/templates/templates.sass
+@import ../blocks/sidenav/sidenav.sass
+@import ../blocks/header/header.sass
+@import ../blocks/main/main.sass
+@import ../blocks/goods/goods.sass
+@import ../blocks/footer/footer.sass
+
+// ---------------------------------------
+// Screen resolution from 320px to 600px
+// ---------------------------------------
+@media (min-width: 0px) and (max-width:767px)
+  main
+    width: 100%
+    display: block !important
+
+  .content
+    left: 0
+    top: 0

@@ -1,0 +1,111 @@
+header
+  width: inherit
+  position: fixed
+  left: 420px
+  background-color: #fff
+  padding-bottom: 1rem
+  z-index: 1000
+
+// Header
+.header
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+
+.header-left,
+.header-right
+  display: flex
+
+.header-left
+  justify-content: left
+
+.header-right
+  justify-content: right
+
+.header_btn
+  border: none
+  background-color: #fff
+  &:hover
+    background-color: transparent
+
+.phone-btn 
+  padding: 14px 18px
+  border: 1px solid #000
+  border-radius: 10px
+  &:hover
+    color: #EE2A74
+
+.user-login
+  &:hover
+    color: #EE2A74
+
+// Search
+.search
+  width: 70%
+  &-btn
+    border: 1px solid #EE2A74
+    background-color: #EE2A74
+    border-radius: 0 8px 8px 0
+    width: 40px
+    height: 40px
+    color: #fff
+
+.form-control:focus 
+  box-shadow: none
+
+.search-input
+  border-radius: 8px 0 0 8px
+  outline-style: none !important
+  outline: none !important
+  &:hover,
+  &:active,
+  &:focus
+    border: 1px solid #EE2A74
+
+.user-autorization,
+.cart
+  cursor: pointer
+
+.cart
+  &:hover
+    color: #EE2A74
+
+.side-menu
+  width: 29%
+
+.page-badge
+  font-size: 10px
+  font-weight: bold
+  opacity: 1
+  background-color: #EE2A74
+  color: #fff
+  height: 18px
+  width: 18px
+  text-align: center
+  top: 25%
+  left: 75%
+
+.shops
+  cursor: pointer
+  &:hover
+    color: #EE2A74
+    .shops-icon
+        fill: #EE2A74
+
+.phone span
+  cursor: pointer
+  &:hover
+    color: #EE2A74
+
+.phone-btn
+  &:hover
+    color: #FFF
+    background-color: #EE2A74
+    border-color: #EE2A74
+
+// ---------------------------------------
+// Screen resolution from 320px to 600px
+// ---------------------------------------
+@media (min-width: 0px) and (max-width:767px)
+  header
+    display: none

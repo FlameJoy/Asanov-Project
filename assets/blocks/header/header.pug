@@ -1,0 +1,41 @@
+header.pt-3
+  .container 
+    .row.mb-4
+      .col-12.header
+        .header-left.d-flex.align-items-center
+          .dropdown
+            button#dropdownMenuButton1.header_btn(type='button' data-bs-toggle='dropdown' aria-expanded='false')
+              | Санкт-Петербург
+              img.dropdown-shevron.ms-2(src="assets/img/dest/Rectangle 27 (Stroke).svg", alt="shevron")
+            ul.dropdown-menu(aria-labelledby='dropdownMenuButton1')
+              li
+                a.dropdown-item(href='#') Москва
+              li
+                a.dropdown-item(href='#') Екатеринбург
+              li
+                a.dropdown-item(href='#') Псков
+          .shops.ms-4
+            svg(width='14' height='20' fill='none' xmlns='http://www.w3.org/2000/svg')
+              path.shops-icon(d='M7 4.5a2.5 2.5 0 010 5 2.5 2.5 0 010-5zM7 0c3.87 0 7 3.13 7 7 0 4.208-4.496 10.021-6.282 12.164a.926.926 0 01-1.436 0C4.496 17.02 0 11.208 0 7c0-3.87 3.13-7 7-7zm0 2C4.24 2 2 4.24 2 7c0 1 0 3 5 9.71C12 10 12 8 12 7c0-2.76-2.24-5-5-5z' fill='#1A1A1A')
+            span.ms-2 Магазины
+        .header-right.d-flex.align-items-center
+          .phone 
+            span +7 (800) 555-44-33
+          button.header_btn.phone-btn.ms-4 Обратный звонок
+    .row
+      .col-12.d-flex.flex-row
+        .search
+          form.d-flex
+            input.form-control.search-input(type='search' placeholder='Поиск: Диван для кухни' aria-label='Search')
+            button.search-btn(type='submit') 
+              i.bi.bi-search.fs-5
+        .side-menu.ms-4.d-flex.flex-row.justify-content-between
+          .user-autorization.d-flex.align-items-center
+            i.bi.bi-person.fs-4
+            span.user-login.ms-1 Войти
+          .cart.d-flex.align-items-center
+            i.bi.bi-cart3.fs-4.position-relative
+              span.position-absolute.translate-middle.border.border-light.rounded-circle.page-badge 10
+            span.fw-bold.ms-1  25 000 &#8381;
+      
+

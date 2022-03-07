@@ -1,0 +1,114 @@
+.best-offer
+  @extend %heading-2
+
+.slider-next-icon
+  cursor: pointer
+  &:hover
+    path
+      fill: #EE2A74
+    rect 
+      stroke: #EE2A74
+
+.slider-next-icon:hover .www
+  stroke: #EE2A74
+
+.promo-icon
+  width: 28px
+  height: 28px
+
+.goods-box
+  transition: all .1s ease
+  height: 300px
+  width: 224px !important
+  border-radius: 8px
+  border: 1px solid #fff
+  margin-right: 15px !important
+
+.goods-box__name
+  font-size: 14px
+  line-height: 24px
+
+.goods-box__price_old,
+.goods-box__availability
+  font-size: 12px
+  
+.goods-box__price_old
+  color: #A2A0A3
+
+.goods-box__price_new
+  @extend %heading-2
+
+.goods-box-btn
+  color: #EE2A74
+  border: 1px solid #EE2A74
+  border-radius: 8px
+  width: 85px
+  height: 40px
+  letter-spacing: 1px
+  font-size: 12px
+  &:hover
+    color: #fff
+    background-color: #EE2A74
+
+.goods-box__best-price 
+  min-width: 114px
+  height: 32px
+  padding: 8px
+  background-color: #F2C94C
+  border-radius: 8px 8px 8px 0
+  font-size: 12px
+  line-height: 12px
+  font-weight: 700
+  left: 110px
+  top: -1px
+
+.goods-box__gift
+  min-width: 146px
+  height: 32px
+  padding: 8px
+  background-color: #27AE60
+  border-radius: 8px 8px 8px 0
+  font-size: 12px
+  line-height: 12px
+  font-weight: 700
+  color: #fff
+  left: 78px
+
+.color-pink
+  color: #fff
+  background-color: #EE2A74
+
+.goods-box__img-wrap,
+.goods-box__name-wrap
+  user-select: none
+
+.goods-box__colors
+  display: none
+  top: 31%
+  left: 5%
+  transition: all .2s ease 
+
+.goods-box__hidden-info
+  display: none
+
+.hidden-info-wrap__text
+  font-size: 12px !important
+  line-height: 14px !important
+  font-weight: 400 !important
+
+.goods-box
+  &:hover
+    height: 460px
+    border-color: #EE2A74
+    .goods-box__colors,
+    .goods-box__hidden-info
+      display: block
+
+// ---------------------------------------
+// Screen resolution from 320px to 600px
+// ---------------------------------------
+@media (min-width: 0px) and (max-width:767px)
+  .swiper
+    width: 1600px
+    overflow: hidden
+
